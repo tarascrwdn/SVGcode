@@ -1,6 +1,6 @@
 /**
  * SVGcode—Convert raster images to SVG vector graphics
- * Copyright (C) 2022 Google LLC
+ * Copyright (C) 2021 Google LLC
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -18,13 +18,11 @@
  */
 
 import languages from './languages.js';
-
 const translations = {
   red: 'Червоний',
   green: 'Зелений',
   blue: 'Синій',
   alpha: 'Прозорість',
-
   brightness: 'Яскравість',
   contrast: 'Контраст',
   grayscale: 'Монохром',
@@ -33,7 +31,6 @@ const translations = {
   opacity: 'Прозорість',
   saturate: 'Насиченість',
   sepia: 'Сепія',
-
   scale: 'Масштаб',
   rotation: 'Поворот',
   turdsize: 'Придушити плями',
@@ -44,16 +41,13 @@ const translations = {
   opticurve: 'Оптимізувати криві',
   opttolerance: 'Рівень оптимізації',
   showAdvancedControls: 'Додаткові налаштування',
-
   '%': '%',
   deg: '°',
   steps: 'кроків',
   pixels: 'пікселів',
   segments: 'сегментів',
-
   reset: 'Скинути',
   resetAll: 'Скинути все',
-
   dropFileHere: 'Киньте файл сюди',
   openImage: 'Відкрити зображення',
   saveSVG: 'Зберегти SVG',
@@ -61,32 +55,24 @@ const translations = {
   copySVG: 'Скопіювати SVG',
   shareSVG: 'Поділитися SVG',
   install: 'Встановити',
-
   posterizeInputImage: 'Постеризувати вхідне зображення',
   colorSVG: 'Кольоровий SVG',
   monochromeSVG: 'Монохромний SVG',
-
   colorChannels: 'Кольорові канали',
   imageSizeAndRotation: 'Вхідні розміри і обертання',
   imagePreprocessing: 'Вхідна обробка',
   svgOptions: 'Налаштування SVG',
-
   considerDPR: 'Враховувати щільність пікселів',
-
   tweak: 'Підкрутити',
   closeOptions: 'Закрити',
-
   optimizingSVG: 'Оптимізую SVG',
   copiedSVG: 'Скопійований SVG',
   savedSVG: 'Збережений SVG',
-
   readyToWorkOffline: 'Готовий для роботи офлайн.',
   svgSize: 'Розмір SVG',
   zoom: 'Масштаб',
-
   license: 'Ліцензія',
   about: 'Про проект',
-
   ...languages,
 };
 
