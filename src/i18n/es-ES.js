@@ -1,6 +1,6 @@
 /**
  * SVGcode—Convert raster images to SVG vector graphics
- * Copyright (C) 2022 Google LLC
+ * Copyright (C) 2021 Google LLC
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -18,13 +18,11 @@
  */
 
 import languages from './languages.js';
-
 const translations = {
   red: 'Rojo',
   green: 'Verde',
   blue: 'Azul',
   alpha: 'Alfa',
-
   brightness: 'Brillo',
   contrast: 'Contraste',
   grayscale: 'Escala de gris',
@@ -33,7 +31,6 @@ const translations = {
   opacity: 'Opacidad',
   saturate: 'Saturación',
   sepia: 'Sepia',
-
   scale: 'Escala',
   rotation: 'Rotación',
   turdsize: 'Suprimir manchas',
@@ -44,16 +41,13 @@ const translations = {
   opticurve: 'Optimizar curvas',
   opttolerance: 'Tolerancia de optimización',
   showAdvancedControls: 'Mostrar opciones avanzadas',
-
   '%': '%',
   deg: '°',
   steps: 'Pasos',
   pixels: 'Píxeles',
   segments: 'Segmentos',
-
   reset: 'Restablecer',
   resetAll: 'Restablecer todo',
-
   dropFileHere: 'Arrastra un archivo aquí',
   openImage: 'Abrir imagen',
   saveSVG: 'Guardar SVG',
@@ -61,32 +55,24 @@ const translations = {
   copySVG: 'Copiar SVG',
   shareSVG: 'Compartir SVG',
   install: 'Instalar',
-
   posterizeInputImage: 'Posterizar imagen de entrada',
   colorSVG: 'SVG de colores',
   monochromeSVG: 'SVG monocromático',
-
   colorChannels: 'Canales de color',
   imageSizeAndRotation: 'Tamaño y rotación de la imagen',
   imagePreprocessing: 'Preprocesamiento de la imagen',
   svgOptions: 'Opciones SVG',
-
   considerDPR: 'Usar proporción de píxeles del dispositivo',
-
   tweak: 'Ajustar',
   closeOptions: 'Cerrar',
-
   optimizingSVG: 'Optimizando SVG',
   copiedSVG: 'SVG copiado',
   savedSVG: 'SVG guardado',
-
   readyToWorkOffline: 'Listo para trabajar sin conexión',
   svgSize: 'Tamaño SVG',
   zoom: 'Zoom',
-
   license: 'Licencia',
   about: 'Acerca de',
-
   ...languages,
 };
 
