@@ -18,13 +18,11 @@
  */
 
 import languages from './languages.js';
-
 const translations = {
   red: 'Rot',
   green: 'Grün',
   blue: 'Blau',
   alpha: 'Alpha',
-
   brightness: 'Helligkeit',
   contrast: 'Kontrast',
   grayscale: 'Graustufen',
@@ -33,7 +31,6 @@ const translations = {
   opacity: 'Transparenz',
   saturate: 'Sättigung',
   sepia: 'Sepia',
-
   scale: 'Skalierung',
   rotation: 'Rotation',
   turdsize: 'Flecken unterdrücken',
@@ -44,16 +41,13 @@ const translations = {
   opticurve: 'Kurven optimieren',
   opttolerance: 'Optimierungstoleranz',
   showAdvancedControls: 'Expertenoptionen anzeigen',
-
   '%': '%',
   deg: '°',
   steps: 'Schritte',
   pixels: 'Pixel',
   segments: 'Segmente',
-
   reset: 'Zurücksetzen',
   resetAll: 'Alles zurücksetzen',
-
   dropFileHere: 'Datei hier ablegen',
   openImage: 'Bild öffnen',
   saveSVG: 'SVG speichern',
@@ -61,32 +55,24 @@ const translations = {
   copySVG: 'SVG kopieren',
   shareSVG: 'SVG teilen',
   install: 'Installieren',
-
   posterizeInputImage: 'Eingabebild posterisieren',
   colorSVG: 'Farbiges SVG',
   monochromeSVG: 'Monochromes SVG',
-
   colorChannels: 'Farbkanäle',
   imageSizeAndRotation: 'Bildgröße und -rotation',
   imagePreprocessing: 'Bildvorverarbeitung',
   svgOptions: 'SVG-Optionen',
-
   considerDPR: 'Pixelverhältnis des Geräts beachten',
-
   tweak: 'Anpassen',
   closeOptions: 'Schließen',
-
   optimizingSVG: 'Optimiere SVG',
   copiedSVG: 'SVG kopiert',
   savedSVG: 'SVG gespeichert',
-
   readyToWorkOffline: 'Bereit für Offline-Nutzung.',
   svgSize: 'SVG-Größe',
   zoom: 'Zoom',
-
   license: 'Lizenz',
   about: 'Über',
-
   ...languages,
 };
 
