@@ -18,13 +18,11 @@
  */
 
 import languages from './languages.js';
-
 const translations = {
   red: 'Red',
   green: 'Green',
   blue: 'Blue',
   alpha: 'Alpha',
-
   brightness: 'Brightness',
   contrast: 'Contrast',
   grayscale: 'Grayscale',
@@ -33,7 +31,6 @@ const translations = {
   opacity: 'Opacity',
   saturate: 'Saturate',
   sepia: 'Sepia',
-
   scale: 'Scale',
   rotation: 'Rotation',
   turdsize: 'Suppress Speckles',
@@ -44,16 +41,13 @@ const translations = {
   opticurve: 'Optimize Curves',
   opttolerance: 'Optimization Tolerance',
   showAdvancedControls: 'Show Expert Options',
-
   '%': '%',
   deg: '°',
   steps: 'Steps',
   pixels: 'Pixels',
   segments: 'Segments',
-
   reset: 'Reset',
   resetAll: 'Reset All',
-
   dropFileHere: 'Drop File Here',
   openImage: 'Open Image',
   saveSVG: 'Save SVG',
@@ -61,32 +55,24 @@ const translations = {
   copySVG: 'Copy SVG',
   shareSVG: 'Share SVG',
   install: 'Install',
-
   posterizeInputImage: 'Posterize Input Image',
   colorSVG: 'Color SVG',
   monochromeSVG: 'Monochrome SVG',
-
   colorChannels: 'Color Channels',
   imageSizeAndRotation: 'Input Size and Rotation',
   imagePreprocessing: 'Input Preprocessing',
   svgOptions: 'SVG Options',
-
   considerDPR: 'Consider Device Pixel Ratio',
-
   tweak: 'Tweak',
   closeOptions: 'Close',
-
   optimizingSVG: 'Optimizing SVG',
   copiedSVG: 'Copied SVG',
   savedSVG: 'Saved SVG',
-
   readyToWorkOffline: 'Ready to Work Offline.',
   svgSize: 'SVG Size',
   zoom: 'Zoom',
-
   license: 'License',
   about: 'About',
-
   ...languages,
 };
 
