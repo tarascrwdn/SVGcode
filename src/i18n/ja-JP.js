@@ -18,13 +18,11 @@
  */
 
 import languages from './languages.js';
-
 const translations = {
   red: '赤',
   green: '緑',
   blue: '青',
   alpha: 'アルファ',
-
   brightness: '明度',
   contrast: 'コントラスト',
   grayscale: 'グレースケール',
@@ -33,7 +31,6 @@ const translations = {
   opacity: '透明度',
   saturate: '彩度',
   sepia: 'セピア',
-
   scale: '拡大/縮小',
   rotation: '回転',
   turdsize: 'ノイズ除去',
@@ -44,16 +41,13 @@ const translations = {
   opticurve: '曲線を最適化',
   opttolerance: '許容差を最適化',
   showAdvancedControls: '上級者向け機能を表示する',
-
   '%': '%',
   deg: '°',
   steps: 'ステップ',
   pixels: 'ピクセル',
   segments: 'セグメント',
-
   reset: 'リセット',
   resetAll: 'すべてリセット',
-
   dropFileHere: 'ここにファイルをドロップ',
   openImage: '画像を開く',
   saveSVG: 'SVG として保存',
@@ -61,32 +55,24 @@ const translations = {
   copySVG: 'SVG をコピーする',
   shareSVG: 'SVG を共有する',
   install: 'インストール',
-
   posterizeInputImage: 'ポスタライズする',
   colorSVG: 'カラー SVG',
   monochromeSVG: 'モノクロ SVG',
-
   colorChannels: 'カラーチャンネル',
   imageSizeAndRotation: '大きさと回転',
   imagePreprocessing: '前処理',
   svgOptions: 'SVG 設定',
-
   considerDPR: 'デバイスのピクセル比を考慮する',
-
   tweak: '微調整',
   closeOptions: '閉じる',
-
   optimizingSVG: 'SVG を最適化する',
   copiedSVG: 'コピーした SVG',
   savedSVG: '保存した SVG',
-
   readyToWorkOffline: 'オフライン作業可能',
   svgSize: 'SVG のサイズ',
   zoom: 'ズーム',
-
   license: 'ライセンス',
   about: 'について',
-
   ...languages,
 };
 
